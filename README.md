@@ -46,7 +46,7 @@ After placing an order, the user have the possibility to view order status and d
 
 ![image](img/orders-history.png)
 
-![image](img/order-details.png)
+![image](img/order_details.png)
 
 
 ## Demo Video 
