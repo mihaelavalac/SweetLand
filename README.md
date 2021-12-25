@@ -28,7 +28,7 @@ The sign in page:
 
 After an user creates an account and log in more functionality is available to the site; for example, the home page and navigation bar are changed as shown in the image bellow:
  
-![image](img/welcome-user.png))
+![image](img/welcome-user.png)
 
 Now, users can not only add/remove items to/from the cart and place orders, but also to add/remove items to/from their favorite list, see orders history, and add an profile picture or update account information.
 
@@ -38,4 +38,10 @@ When the add to cart or like button is clicked, the respective item is added to 
 
 ![image](img/favorites.png)
 
+To update the account information or image, an user have to go to the account page and simply introduce the new information that they want and push the update button. When such changes occur, user information will update in the database and everywhere on the site as well (like the name in navigation). 
 
+![image](img/update_account.png)
+
+After placing an order, the user have the possibility to view order status and details under the history page. 
+
+![image](img/orders-history.png)
