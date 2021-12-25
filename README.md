@@ -42,6 +42,13 @@ To update the account information or image, an user have to go to the account pa
 
 ![image](img/update_account.png)
 
-After placing an order, the user have the possibility to view order status and details under the history page. 
+After placing an order, the user have the possibility to view order status and details under the history/orders page. 
 
 ![image](img/orders-history.png)
+
+![image](img/order-details.png)
+
+
+## Demo Video 
+
+To show you how my application work, I created a video which can be viewed [here]().
