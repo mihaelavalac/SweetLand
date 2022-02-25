@@ -1,10 +1,10 @@
 # SweetLand
-SweetLand is a fully functional project that I created for my Web Database Development class at Columbus State Community College.
+Sweetland is a fully functional e-commerce project I created for a bakery business. 
 The technologies used to build this web application are PHP, MySQL, SASS, CSS, Bootstrap, and JavaScript.
 
 ## Functionality 
 
-There are two sides to this project: a user with an account or without an account. When a potential client visits the site the first time they see the content from the image below which represents the home page.
+This project has two sides: a user with an account or without an account. When potential clients visit the site the first time, they see the content from the image below, representing the home page.
 
 ![image](img/welcome.png)
 
