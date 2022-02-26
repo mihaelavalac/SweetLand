@@ -9,8 +9,9 @@ if (getenv('APP_ENV') == 'production') {
   $active_group = 'default';
   $query_builder = TRUE;
   // Connect to DB
-  $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
-} else { {
+  //$conn = new PDO ($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+  $conn = new PDO("mysql:host=$cleardb_server;dbname=$$cleardb_db", $cleardb_username, $cleardb_password);
+} else {  {
 
     $db_config = parse_ini_file(".env");
     $host = $db_config["DB_HOST"];
@@ -20,6 +21,7 @@ if (getenv('APP_ENV') == 'production') {
   }
   try {
     $conn = new PDO("mysql:host=$host;dbname=$db_name", $db_username, $db_password);
+    //$conn = mysqli_connect($host, $db_username, $db_password, $db_db);
   } catch (PDOException $e) {
     echo "Connection to the database failed: " . $e->getMessage();
   }
