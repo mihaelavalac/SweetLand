@@ -30,7 +30,7 @@ include './classes/orders.class.php';
     
 
     <?php
-
+    var_dump(getenv("APP_ENV"));
     if (isset($_SESSION['email'])) {
       echo "<div class='home-message '><p>Welcome to Sweetland " . $f_name . "!</p></div>"
     ?>
