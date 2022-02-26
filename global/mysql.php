@@ -2,7 +2,7 @@
       session_start();
       $db_config = parse_ini_file(".env"); 
       $isProduction = false;
-      if(parse_url(getenv("APP_ENV")) == 'production'){
+      if(getenv("APP_ENV") == 'production'){
         $isProduction =  true;
       } 
       $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
