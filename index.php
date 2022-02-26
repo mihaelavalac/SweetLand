@@ -4,6 +4,12 @@ include './classes/favorites.class.php';
 include './classes/menu_items.class.php';
 include './classes/user.class.php';
 include './classes/orders.class.php';
+
+$cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+$cleardb_server = $cleardb_url["host"];
+$cleardb_username = $cleardb_url["user"];
+$cleardb_password = $cleardb_url["pass"];
+$cleardb_db = substr($cleardb_url["path"],1);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -30,7 +36,7 @@ include './classes/orders.class.php';
     
 
     <?php
-
+    var_dump($cleardb_url);
     if (isset($_SESSION['email'])) {
       echo "<div class='home-message '><p>Welcome to Sweetland " . $f_name . "!</p></div>"
     ?>
