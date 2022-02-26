@@ -1,6 +1,4 @@
-Drop database if exists sweetland_db;
-CREATE database sweetland_db;
-Use sweetland_db; 
+
 
 -- Category Table --
 DROP TABLE IF EXISTS category;
@@ -69,8 +67,8 @@ DROP TABLE IF EXISTS orders;
   user_id int(11) NOT NULL,
   `tracking_number` varchar(255) DEFAULT NULL,
   `status` enum('Pending','Shipped','Delivered') DEFAULT 'Pending',
-  `ordered_date` date DEFAULT NOW(),
-  `last_updated` date DEFAULT NOW(),
+  `ordered_date` date DEFAULT NULL,
+  `last_updated` date DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`),
   CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE
@@ -86,8 +84,8 @@ CREATE TABLE ordered_items (
   `order_id` int(11) NOT NULL,
   `price` INT NOT NULL,
   `quantity` int(2) NOT NULL,
-  `ordered_date` date DEFAULT NOW(),
-  `last_updated` date DEFAULT NOW(),
+  `ordered_date` date DEFAULT NULL
+  `last_updated` date DEFAULT NULL,
   `status` enum( 'Processing','Baking','Assembling','Ready') DEFAULT 'Processing',
   PRIMARY KEY (`id`),
   KEY `item_id` (`item_id`),
