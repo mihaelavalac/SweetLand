@@ -124,9 +124,7 @@ dist
 
 .DS_Store
 .git
-
-css/main.scss.map
-css/main.css.map
+.env
 
 
 
