@@ -1,7 +1,7 @@
 <?php
       session_start();
       $db_config = parse_ini_file(".env"); 
-      $isProduction = true; // keep false in local
+      $isProduction = parse_url(getenv("APP_ENV")) == 'production'? true : false; // keep false in local
       $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
       if($isProduction){
         $host = $cleardb_url["host"];
