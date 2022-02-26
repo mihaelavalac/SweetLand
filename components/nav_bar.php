@@ -1,18 +1,18 @@
 <nav id="nav" class=" navbar navbar-expand-lg bg-secondary">
     <div class="container-fluid">
-        <a aria-label="Sweetland logo" class="logo" href="home.php"><img src="img/Sweetland-logos_transparent.png" alt="" width="200px" height="auto"></a>
+        <a aria-label="Sweetland logo" class="logo" href="index.php"><img src="img/Sweetland-logos_transparent.png" alt="" width="200px" height="auto"></a>
         <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0 text-dark">
                 <li class="nav-item ">
-                    <a class="nav-link text-black " aria-current="page" href="home.php">Home</a>
+                    <a class="nav-link text-black " aria-current="page" href="index.php">Home</a>
                 </li>
                 <?php if (isset($_SESSION['email'])) {
                         ?><li>
                     <div class="dropdown show bg-secondary">
-                        <a class="text-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><strong><?php echo $f_name ?></strong>
+                        <a class="text-primary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><strong><?php echo $f_name ?></strong>
 
                         </a>
 

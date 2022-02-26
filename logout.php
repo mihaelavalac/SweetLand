@@ -13,7 +13,7 @@
   session_start();
   session_unset();
   session_destroy();
-  header("Location:home.php");
+  header("Location:index.php");
   ?>
   <?php include('components/footer.php');
   ?>

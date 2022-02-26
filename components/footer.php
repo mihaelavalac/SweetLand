@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row pt-5">
         <div class="col-sm-12 col-md-12 col-lg-4">
-          <a aria-label ="Sweetland logo" class="logo" href="home.php"><img src="img/Sweetland-logos_transparent.png" alt="" width="200px" height="auto"></a>
+          <a aria-label ="Sweetland logo" class="logo" href="index.php"><img src="img/Sweetland-logos_transparent.png" alt="" width="200px" height="auto"></a>
           <p class = "text-lg-start text-center"><i class="bi bi-geo-alt-fill"></i>Columbus, OH 43232, US</p>
           <p class = "text-lg-start text-center"><i class="bi bi-envelope-open-fill"></i>
             
@@ -15,7 +15,7 @@
           <p class=" h5 text-uppercase">Useful Links</p>
           <ul class="list-unstyled ">
             <li>
-              <a href="home.php" class="text-black">Home</a>
+              <a href="index.php" class="text-black">Home</a>
             </li>
             <li>
               <a href="menu.php" class="text-black">Menu</a>

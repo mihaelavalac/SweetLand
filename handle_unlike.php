@@ -18,6 +18,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $favorite_obj = new FavoriteItem();
   $favorite_item = $favorite_obj->remove_favorite_item($conn, $user_id, $favoriteId, $is_favorite);
 }
-header('Location: ./home.php');
+header('Location: ./index.php');
 
 ?>

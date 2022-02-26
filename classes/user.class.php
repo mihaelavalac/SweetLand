@@ -28,7 +28,7 @@ class User {
         if (password_verify($password, $hashedPassword)) {
           //session_start();
           $_SESSION['email'] = $email;
-          header("Location: home.php");
+          header("Location: index.php");
         } else {
           return "Incorrect Password";
         }
@@ -69,7 +69,7 @@ class User {
     if(!empty($stmt)){
       //session_start();
       $_SESSION['email'] = $email;
-      header("Location: home.php");
+      header("Location: index.php");
     }
   }
   
