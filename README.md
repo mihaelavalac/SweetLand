@@ -50,7 +50,3 @@ After placing an order, the user has the possibility to view order status and de
 
 
 ## Demo Video 
-
-To show you how my application work, I created a video that can be viewed [here].
-![image](https://user-images.githubusercontent.com/69922624/155402842-d270505c-fbce-4c48-842b-e8f41bf65f4e.png)
-
