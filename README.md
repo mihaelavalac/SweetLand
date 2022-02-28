@@ -1,3 +1,10 @@
+<h1 align="center"> Sweetland <img align="center" src="https://img.shields.io/badge/license-GPL 2.0-red"></h1>
+
+## Description
+
+  You can see the project repository <b>[here](https://github.com/mihaelavalac/mv-sweetland).</b>  <br>
+  You can navigate to the deployed site <b>[here](https://mv-sweetland.herokuapp.com/).</b>
+
 # SweetLand
 Sweetland is a fully functional e-commerce project I created for a bakery business. 
 The technologies used to build this web application are PHP, MySQL, SASS, CSS, Bootstrap, and JavaScript.
