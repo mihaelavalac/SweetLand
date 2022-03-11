@@ -77,17 +77,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="row ">
                 <div class="form-group col-md-6">
                     <label for="fName">First Name</label>
-                    <input type="text" class="form-control" id="fName" name="fName" placeholder="First Name" required>
+                    <input type="text" class="form-control" id="fName" name="fName" placeholder="Lyndsey" required>
                     <?php echo '<small class="text-primary">' . $f_name_error . '</small><br>' ?>
                 </div>
                 <div class="form-group col-md-6">
                     <label for="lName">Last Name</label>
-                    <input type="text" class="form-control" id="lName" name="lName" placeholder="Last Name" required>
+                    <input type="text" class="form-control" id="lName" name="lName" placeholder="Hicks" required>
                     <?php echo '<small class="text-primary">' . $l_name_error . '</small><br>' ?>
                 </div>
                 <div class="form-group col-md-6">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="test@address.com" required>
                     <?php echo '<small class="text-primary">' . $email_error . '</small><br>' ?>
                 </div>
                 <div class="form-group col-md-6">
@@ -112,17 +112,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="row">
                 <div class="form-group col-md-6">
                     <label for="address1">Address 1</label>
-                    <input type="text" class="form-control" id="address1" name="address1" placeholder="Address 1" required>
+                    <input type="text" class="form-control" id="address1" name="address1" placeholder="123 Street Name" required>
                     <?php echo '<small class="text-primary">' . $address_1_error . '</small><br>' ?>
                 </div>
                 <div class="form-group col-md-6">
                     <label for="address2">Address 2</label>
-                    <input type="text" class="form-control" id="address2" name="address2" placeholder="Address 2">
+                    <input type="text" class="form-control" id="address2" name="address2" placeholder="#111">
                     <?php echo '<small class="text-primary">' . $address_2_error . '</small><br>' ?>
                 </div>
                 <div class="form-group col-md-6">
                     <label for="city">City</label>
-                    <input type="text" class="form-control" id="city" name="city" placeholder="City" required>
+                    <input type="text" class="form-control" id="city" name="city" placeholder="Columbus" required>
                     <?php echo '<small class="text-primary">' . $city_error . '</small><br>' ?>
                 </div>
                 <div class="form-group col-md-3">
@@ -183,30 +183,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
                 <div class="form-group col-md-3">
                     <label for="zip_code">Zip Code</label>
-                    <input type="text" class="form-control" id="zip_code" name="zip_code" placeholder="Zip Code" required>
+                    <input type="text" class="form-control" id="zip_code" name="zip_code" placeholder="43000" required>
                     <?php echo '<small class="text-primary">' . $zip_code_error . '</small><br>' ?>
                 </div>
             </div>
             <h3>Card Info</h3>
             <div class="row">
                 <div class="form-group col-md-6">
-                    <label for="card_nr">Card Nr.</label>
-                    <input type="inputCard" class="form-control" id="card_nr" name="card_nr" placeholder="Card Number" required>
+                    <label for="card_nr">Card Nr. </label>
+                    <input type="inputCard" class="form-control" id="card_nr" name="card_nr" placeholder="1111 1111 1111 1111" required>
                     <?php echo '<small class="text-primary">' . $card_num_error . '</small><br>' ?>
                 </div>
                 <div class="form-group col-md-2 col-sm-4">
                     <label for="card_exp_month">Exp. Month</label>
-                    <input type="inputCard" class="form-control" id="card_exp_month" name="card_exp_month" placeholder="mm" required>
+                    <input type="inputCard" class="form-control" id="card_exp_month" name="card_exp_month" placeholder="MM" required>
                     <?php echo '<small class="text-primary">' . $exp_month_error . '</small><br>' ?>
                 </div>
                 <div class="form-group col-md-2 col-sm-4">
                     <label for="card_exp_year">Exp. Year</label>
-                    <input type="inputCard" class="form-control" id="card_exp_year" name="card_exp_year" placeholder="yyyy" required>
+                    <input type="inputCard" class="form-control" id="card_exp_year" name="card_exp_year" placeholder="YYYY" required>
                     <?php echo '<small class="text-primary">' . $exp_year_err . '</small><br>' ?>
                 </div>
                 <div class="form-group col-md-2 col-sm-4">
                     <label for="card_cvv">CVV</label>
-                    <input type="inputCard" class="form-control" id="card_cvv" name="card_cvv" placeholder="CVV" required>
+                    <input type="inputCard" class="form-control" id="card_cvv" name="card_cvv" placeholder="123" required>
                     <?php echo '<small class="text-primary">' . $card_cvv_error . '</small><br>' ?>
                 </div>
 
