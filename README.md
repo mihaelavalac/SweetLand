@@ -55,5 +55,3 @@ After placing an order, the user has the possibility to view order status and de
 
 ![image](img/order_details.png)
 
-
-## Demo Video 
